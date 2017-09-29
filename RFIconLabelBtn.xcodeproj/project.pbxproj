@@ -15,6 +15,8 @@
 		5A9A06401F7E1B4D00613B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A063E1F7E1B4D00613B0E /* LaunchScreen.storyboard */; };
 		5A9A064B1F7E1B4D00613B0E /* RFIconLabelBtnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A064A1F7E1B4D00613B0E /* RFIconLabelBtnTests.m */; };
 		5A9A06561F7E1B4D00613B0E /* RFIconLabelBtnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A06551F7E1B4D00613B0E /* RFIconLabelBtnUITests.m */; };
+		5A9A06661F7E1B9200613B0E /* RFIconLabelBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A06651F7E1B9200613B0E /* RFIconLabelBtn.m */; };
+		5A9A06681F7E1D7500613B0E /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A06671F7E1D7500613B0E /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		5A9A06511F7E1B4D00613B0E /* RFIconLabelBtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFIconLabelBtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9A06551F7E1B4D00613B0E /* RFIconLabelBtnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFIconLabelBtnUITests.m; sourceTree = "<group>"; };
 		5A9A06571F7E1B4D00613B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9A06641F7E1B9200613B0E /* RFIconLabelBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFIconLabelBtn.h; sourceTree = "<group>"; };
+		5A9A06651F7E1B9200613B0E /* RFIconLabelBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFIconLabelBtn.m; sourceTree = "<group>"; };
+		5A9A06671F7E1D7500613B0E /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,12 @@
 		5A9A062F1F7E1B4D00613B0E /* RFIconLabelBtn */ = {
 			isa = PBXGroup;
 			children = (
+				5A9A06631F7E1B6E00613B0E /* RFIconLabelBtn */,
 				5A9A06331F7E1B4D00613B0E /* AppDelegate.h */,
 				5A9A06341F7E1B4D00613B0E /* AppDelegate.m */,
 				5A9A06361F7E1B4D00613B0E /* ViewController.h */,
 				5A9A06371F7E1B4D00613B0E /* ViewController.m */,
+				5A9A06671F7E1D7500613B0E /* image.png */,
 				5A9A06391F7E1B4D00613B0E /* Main.storyboard */,
 				5A9A063C1F7E1B4D00613B0E /* Assets.xcassets */,
 				5A9A063E1F7E1B4D00613B0E /* LaunchScreen.storyboard */,
@@ -138,6 +145,15 @@
 				5A9A06571F7E1B4D00613B0E /* Info.plist */,
 			);
 			path = RFIconLabelBtnUITests;
+			sourceTree = "<group>";
+		};
+		5A9A06631F7E1B6E00613B0E /* RFIconLabelBtn */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A06641F7E1B9200613B0E /* RFIconLabelBtn.h */,
+				5A9A06651F7E1B9200613B0E /* RFIconLabelBtn.m */,
+			);
+			path = RFIconLabelBtn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9A06681F7E1D7500613B0E /* image.png in Resources */,
 				5A9A06401F7E1B4D00613B0E /* LaunchScreen.storyboard in Resources */,
 				5A9A063D1F7E1B4D00613B0E /* Assets.xcassets in Resources */,
 				5A9A063B1F7E1B4D00613B0E /* Main.storyboard in Resources */,
@@ -273,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9A06661F7E1B9200613B0E /* RFIconLabelBtn.m in Sources */,
 				5A9A06381F7E1B4D00613B0E /* ViewController.m in Sources */,
 				5A9A06351F7E1B4D00613B0E /* AppDelegate.m in Sources */,
 				5A9A06321F7E1B4D00613B0E /* main.m in Sources */,
